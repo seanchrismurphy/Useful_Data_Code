@@ -1,4 +1,5 @@
 # A function I wrote to merge together two data frames where one or both have variables the other doesn't
+# Note that this function assumes variables of the same name in different dataframes are the same variable
 Datamerge <- function(data1, data2) {
   add1 <- setdiff(colnames(data2), colnames(data1))
   add2 <- setdiff(colnames(data1), colnames(data2))
