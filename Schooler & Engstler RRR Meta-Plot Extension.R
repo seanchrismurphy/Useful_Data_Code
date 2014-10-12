@@ -2,6 +2,7 @@
 library("metafor")
 
 
+
 # Import the data
 data <- read.table(textConnection(
  "Lab	Author	Group	Country	Language	N_verbal	N_verbal_excluded	N_verbal_excluded_age	N_verbal_excluded_race	N_verbal_excluded_other	N_verbal_included	N_verbal_correct	N_verbal_foil	N_verbal_miss	N_control	N_control_excluded	N_control_excluded_age	N_control_excluded_race	N_control_excluded_other	N_control_included	N_control_correct	N_control_foil	N_control_miss
